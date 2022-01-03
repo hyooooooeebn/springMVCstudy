@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>mvc04</name>
+	<comment></comment>
+	<projects>
+		<project>org.springframework.expression-3.0.2.RELEASE</project>
+		<project>org.springframework.beans-3.0.2.RELEASE</project>
+		<project>standard</project>
+		<project>org.springframework.jdbc-3.0.2.RELEASE</project>
+		<project>org.springframework.transaction-3.0.2.RELEASE</project>
+		<project>ojdbc6</project>
+		<project>org.springframework.core-3.0.2.RELEASE</project>
+		<project>org.springframework.aop-3.0.2.RELEASE</project>
+		<project>com.springsource.org.apache.commons.logging-1.1.1</project>
+		<project>org.springframework.asm-3.0.2.RELEASE</project>
+		<project>org.springframework.context-3.0.2.RELEASE</project>
+		<project>jstl</project>
+		<project>org.springframework.web-3.0.2.RELEASE</project>
+		<project>org.springframework.web.servlet-3.0.2.RELEASE</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+</projectDescription>

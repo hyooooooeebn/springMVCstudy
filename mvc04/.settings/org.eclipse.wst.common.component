@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="mvc04">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="org.springframework.expression-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.expression-3.0.2.RELEASE/org.springframework.expression-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.beans-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.beans-3.0.2.RELEASE/org.springframework.beans-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="standard.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard/standard">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.jdbc-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.jdbc-3.0.2.RELEASE/org.springframework.jdbc-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.transaction-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.transaction-3.0.2.RELEASE/org.springframework.transaction-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc6/ojdbc6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.core-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.core-3.0.2.RELEASE/org.springframework.core-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.aop-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.aop-3.0.2.RELEASE/org.springframework.aop-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.springsource.org.apache.commons.logging-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/com.springsource.org.apache.commons.logging-1.1.1/com.springsource.org.apache.commons.logging-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.asm-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.asm-3.0.2.RELEASE/org.springframework.asm-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.context-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.context-3.0.2.RELEASE/org.springframework.context-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl/jstl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.web-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.web-3.0.2.RELEASE/org.springframework.web-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.web.servlet-3.0.2.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.springframework.web.servlet-3.0.2.RELEASE/org.springframework.web.servlet-3.0.2.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/mvc04/build/classes"/>
+        <property name="context-root" value="mvc04"/>
+    </wb-module>
+</project-modules>
